@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OléCAD – Partner SOLIDWORKS & 3DEXPERIENCE | Espanha &amp; Portugal</title>
+  <meta name="description" content="OléCAD, especialista em 3DEXPERIENCE e SOLIDWORKS para startups, PMEs e freelancers em Espanha e Portugal.">
+
+  <!-- Canonical + hreflang -->
+  <link rel="canonical" href="https://olecad.ohmycad.com/">
+  <link rel="alternate" hreflang="pt-pt" href="https://olecad.ohmycad.com/">
+  <link rel="alternate" hreflang="es"    href="https://olecad.ohmycad.com/es/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon (remplacer par le vrai) -->
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+
+<!-- ════════════════════════════════════
+     HEADER
+════════════════════════════════════ -->
+<header>
+  <div class="container">
+    <div class="header-inner">
+
+      <a href="#home" class="logo">
+        <img class="logo-img"
+          src="images/logo-no-bg.png"
+          alt="OléCAD"
+          onerror="this.outerHTML='<div class=&quot;logo-mark&quot;>O</div><span>Olé<span style=&quot;color:var(--red)&quot;>CAD</span></span>'">
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#tools">Nossas ofertas</a>
+        <a href="#services">SOLIDWORKS</a>
+        <a href="#team">A nossa equipa</a>
+        <a href="#contact">Contacte‑nos</a>
+      </nav>
+
+      <div class="header-right">
+        <div class="lang-switch" aria-label="Sélecteur de langue">
+          <a href="https://olecad.ohmycad.com/" class="active">🇵🇹 PT</a>
+          <a href="https://olecad.ohmycad.com/es/">🇪🇸 ES</a>
+        </div>
+        <a href="#contact" class="btn btn-ghost" style="padding:9px 18px;font-size:13px">Falar com um expert</a>
+        <a href="#contact" class="btn btn-red"   style="padding:9px 18px;font-size:13px">Consultar ofertas</a>
+      </div>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Navigation mobile">
+  <a href="#tools">Nossas ofertas</a>
+  <a href="#services">SOLIDWORKS</a>
+  <a href="#team">A nossa equipa</a>
+  <a href="#contact">Contacte‑nos</a>
+  <a href="#contact" class="btn btn-red">Consultar ofertas →</a>
+</nav>
+
+
+<!-- ════════════════════════════════════
+     HERO
+════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-content">
+
+    <!-- Banner OléCAD × SOLIDWORKS -->
+    <div class="hero-logos reveal">
+      <img class="hero-logo-img"
+        src="images/logo-olecad-x-solidworks.png"
+        alt="OléCAD × SOLIDWORKS"
+        style="height:52px;filter:none;border-radius:6px;opacity:1"
+        onerror="this.outerHTML='<div class=&quot;hero-logo-ph&quot;>OléCAD × SOLIDWORKS</div>'">
+    </div>
+
+    <h1 class="reveal delay-1">
+      Especialista em <em>3DEXPERIENCE</em><br>
+      e SOLIDWORKS para startups,<br>PMEs e freelancers.
+    </h1>
+
+    <p class="hero-sub reveal delay-2">
+      Com a abordagem da OléCAD, ganha tempo, poupa dinheiro e trabalha com tranquilidade.
+    </p>
+
+    <!-- Trust -->
+    <div class="hero-trust reveal delay-3">
+      <div class="trust-chip">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/>
+        </svg>
+        Google 4.9 · 300+ ratings
+      </div>
+      <div class="trust-badge-ph">CERTIFIED<br>Gold Product<br><strong style="color:var(--red)">SOLIDWORKS</strong></div>
+      <div class="trust-badge-ph">VALUE SOLUTIONS<br>GOLD PARTNER<br><strong style="color:var(--navy)">DASSAULT</strong></div>
+    </div>
+
+    <!-- Mini form -->
+    <div class="hero-form reveal delay-4">
+      <form id="heroForm" novalidate>
+        <div class="hero-form-row">
+          <input type="email" name="email" placeholder="Correio Eletrónico *" required>
+          <input type="tel"   name="phone" placeholder="Telefone *" required>
+          <input type="text"  name="message" placeholder="Mensagem">
+          <button class="btn btn-white" type="submit">
+            CONSULTAR OFERTAS
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Stats strip -->
+  <div class="hero-strip" aria-label="Chiffres clés">
+    <div class="hero-stat">
+      <div class="hero-stat-num">+1<span>000</span></div>
+      <div class="hero-stat-label">clientes acompanhados</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num"><span>&lt;</span>24h</div>
+      <div class="hero-stat-label">resposta garantida</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">3<span>×</span></div>
+      <div class="hero-stat-label">partner 3DS #1 — 2022, 2023, 2024</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">100<span>%</span></div>
+      <div class="hero-stat-label">soluções Dassault Systèmes</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     TODAS AS FERRAMENTAS
+════════════════════════════════════ -->
+<section class="sec" id="tools">
+  <div class="container">
+
+    <div class="tools-intro reveal">
+      <div class="eyebrow">Todas as soluções</div>
+      <h2 class="sec-h2">Todas as ferramentas do SOLIDWORKS: um único parceiro.</h2>
+      <p class="sec-lead" style="margin-top:12px">
+        OléCAD implementa as soluções disponibilizadas pela Dassault Systèmes :<br>
+        <strong>SOLIDWORKS 3D, Simulation, PDM, Electrical, Composer, 3DEXPERIENCE, Cloud…</strong>
+      </p>
+      <p class="sec-lead" style="margin-top:10px">
+        Com a abordagem da OléCAD, ganha tempo, poupa dinheiro e trabalha com tranquilidade.
+      </p>
+    </div>
+
+    <div class="tools-grid">
+
+      <div class="tool-card reveal delay-1">
+        <div class="tool-card-img">
+          <img src="images/solidworks-card.png" alt="O novo SOLIDWORKS"
+            onerror="this.parentElement.innerHTML='<div class=&quot;tool-card-img-ph&quot;>Photo SOLIDWORKS</div>'">
+        </div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">O novo SOLIDWORKS</div>
+          <p class="tool-card-text">
+            A OléCAD implementa um ambiente SOLIDWORKS mais rápido, mais flexível e preparado para a colaboração à distância.
+            <em>Trabalhe em múltiplos postos, sempre com a versão mais recente do SOLIDWORKS.</em>
+          </p>
+        </div>
+      </div>
+
+      <div class="tool-card reveal delay-2">
+        <div class="tool-card-img">
+          <img src="images/3dx-card.png" alt="3DEXPERIENCE"
+            onerror="this.parentElement.innerHTML='<div class=&quot;tool-card-img-ph&quot;>Photo 3DEXPERIENCE</div>'">
+        </div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">Integrado na 3DEXPERIENCE</div>
+          <p class="tool-card-text">
+            Desfrute de um acesso fluido e centralizado aos seus dados, projetos e equipas, graças à integração com a 3DEXPERIENCE.
+            <em>Responda a todos os seus desafios de desenvolvimento com uma suite completa de aplicações.</em>
+          </p>
+        </div>
+      </div>
+
+      <div class="tool-card reveal delay-3">
+        <div class="tool-card-img">
+          <img src="images/accompagnement-card.png" alt="Acompanhamento dedicado"
+            onerror="this.parentElement.innerHTML='<div class=&quot;tool-card-img-ph&quot;>Photo Acompanhamento</div>'">
+        </div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">Um acompanhamento à medida</div>
+          <p class="tool-card-text">
+            É acompanhado do início ao fim : escolha da oferta, instalação, personalização, formação e evolução.
+            <em>O seu engenheiro dedicado acompanha‑o para tirar o máximo partido da sua suite de software.</em>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     AGILE
+════════════════════════════════════ -->
+<section class="sec sec-alt">
+  <div class="container">
+
+    <div class="agile-header reveal">
+      <div class="eyebrow">A nossa approche</div>
+      <h2 class="sec-h2">Uma experiência técnica ao serviço de estruturas ágeis.</h2>
+      <p class="sec-lead" style="margin-top:12px">
+        Quer seja uma startup, uma PME ou um profissional independente, a OléCAD acompanha‑vos
+        na implementação de soluções SOLIDWORKS com método, clareza e resultados concretos.
+      </p>
+    </div>
+
+    <div class="agile-grid">
+
+      <div class="agile-card reveal delay-1">
+        <div class="agile-img">
+          <img src="images/agile.png" alt="Pensado para startups"
+            onerror="this.parentElement.innerHTML='<div class=&quot;agile-img-ph&quot;>Photo Agile</div>'">
+        </div>
+        <div class="agile-body">
+          <h3>Pensado para startups, PMEs e freelancers.</h3>
+          <p>A OléCAD adapta‑se às suas limitações de dimensão, orçamento e agilidade.
+            <em>Desfrute de uma experiência de elevado nível, sem complexidade nem dependência técnica.</em>
+          </p>
+        </div>
+      </div>
+
+      <div class="agile-card reveal delay-2">
+        <div class="agile-img">
+          <img src="images/rapide.png" alt="Integração rápida"
+            onerror="this.parentElement.innerHTML='<div class=&quot;agile-img-ph&quot;>Photo Rapid</div>'">
+        </div>
+        <div class="agile-body">
+          <h3>Integração rápida</h3>
+          <p>
+            Auditoria, implementação, configuração e acompanhamento : cada projeto é conduzido
+            com uma metodologia clara e um interlocutor dedicado.
+          </p>
+          <p>Poupe tempo desde a primeira semana e tire o máximo partido das suas ferramentas.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="agile-cta reveal">
+      <a href="#contact" class="btn btn-red">
+        CONSULTAR AS NOSSAS OFERTAS SOLIDWORKS
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     SPLIT 1 — nouveau SOLIDWORKS
+════════════════════════════════════ -->
+<div class="split">
+  <div class="split-media reveal from-left">
+    <img src="images/nouveau-solidworks.png" alt="Novo SOLIDWORKS multi-device"
+      onerror="this.outerHTML='<div class=&quot;split-media-ph&quot; style=&quot;background:linear-gradient(135deg,#c8d4e0,#8faabe)&quot;>[ Photo SOLIDWORKS multi-device ]</div>'">
+  </div>
+  <div class="split-text reveal from-right">
+    <div class="eyebrow" style="color:var(--red)">O novo SOLIDWORKS</div>
+    <h2>O novo SOLIDWORKS : mais rápido, mais ágil, mais conectado.</h2>
+    <p>SOLIDWORKS multiutilizador, com os seus dados 3D acessíveis a partir de todos os seus dispositivos.</p>
+    <p><em>Tudo está centralizado, escalável e acessível</em></p>
+    <hr class="split-sep light">
+    <a href="https://ohmycad.com/solidworks/guide/" class="btn btn-red">
+      3DX SOLIDWORKS — Explicação
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════
+     SPLIT 2 — réseau Ohmycad
+════════════════════════════════════ -->
+<div class="split">
+  <div class="split-text dark reveal from-left">
+    <div class="eyebrow" style="color:#FF8A8A">Rede Ohmycad</div>
+    <h2>A experiência da OléCAD, com a estrutura da Ohmycad.</h2>
+    <p>
+      Como sócio certificado, a OléCAD beneficia do apoio de uma rede sólida :
+      procedimentos comprovados, acompanhamento de nível internacional,
+      mantendo sempre a proximidade no terreno.
+    </p>
+    <hr class="split-sep">
+    <a href="https://ohmycad.com/" class="btn btn-white">
+      OHMYCAD : UMA REDE SOLIDWORKS
+      <svg width="15" height="15" fill="none" stroke="var(--red)" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+  <div class="split-media reveal from-right">
+    <img src="images/humain.png" alt="A equipa OléCAD Ohmycad"
+      onerror="this.outerHTML='<div class=&quot;split-media-ph&quot; style=&quot;background:linear-gradient(135deg,#8faabe,#5d7a94)&quot;>[ Photo équipe ]</div>'">
+  </div>
+</div>
+
+
+<!-- ════════════════════════════════════
+     SERVICES
+════════════════════════════════════ -->
+<section class="sec" id="services">
+  <div class="container">
+
+    <div class="services-header">
+      <div class="reveal">
+        <div class="eyebrow">Suite completa</div>
+        <h2 class="sec-h2">Todas as ferramentas necessárias para o desenvolvimento dos seus produtos.</h2>
+        <div class="services-sep"></div>
+      </div>
+      <div class="services-header-right reveal delay-1">
+        <p class="sec-lead">Colocamos à sua disposição o poder da Dassault Systèmes.</p>
+        <p class="sec-lead" style="margin-top:8px">
+          Desde a conceção até à produção, centralize, simule e acelere os seus projetos
+          com a melhor solução do mercado.
+        </p>
+      </div>
+    </div>
+
+    <!-- 4 cartes principales -->
+    <div class="apps-grid">
+
+      <div class="app-card reveal delay-1">
+        <div class="app-screen">
+          <img src="images/screen-solidworks.png" alt="SOLIDWORKS 3D CAD"
+            onerror="this.parentElement.innerHTML='<div class=&quot;app-screen-ph&quot;>Screenshot SOLIDWORKS</div>'">
+        </div>
+        <div class="app-body">
+          <div class="app-icon">
+            <img src="images/icon-solidworks.png" alt="SOLIDWORKS"
+              onerror="this.parentElement.outerHTML='<div class=&quot;app-icon-ph&quot;>SW</div>'">
+          </div>
+          <div class="app-name">Desenho 3D</div>
+          <p class="app-desc">Conceba as suas peças, conjuntos e produtos com precisão graças à ferramenta CAD n.º 1 do mercado.</p>
+        </div>
+      </div>
+
+      <div class="app-card reveal delay-2">
+        <div class="app-screen">
+          <img src="images/screen-3dexperience.png" alt="PDM 3DEXPERIENCE"
+            onerror="this.parentElement.innerHTML='<div class=&quot;app-screen-ph&quot;>Screenshot PDM</div>'">
+        </div>
+        <div class="app-body">
+          <div class="app-icon">
+            <img src="images/icon-enovia.png" alt="ENOVIA PDM"
+              onerror="this.parentElement.outerHTML='<div class=&quot;app-icon-ph&quot;>PDM</div>'">
+          </div>
+          <div class="app-name">Gestão de dados técnicos (PDM)</div>
+          <p class="app-desc">Centralize os seus ficheiros, versões e listas de materiais num espaço cloud seguro.</p>
+        </div>
+      </div>
+
+      <div class="app-card reveal delay-3">
+        <div class="app-screen">
+          <img src="images/screen-simulation.png" alt="Simulation SIMULIA"
+            onerror="this.parentElement.innerHTML='<div class=&quot;app-screen-ph&quot;>Screenshot Simulation</div>'">
+        </div>
+        <div class="app-body">
+          <div class="app-icon">
+            <img src="images/icon-simulia.png" alt="SIMULIA"
+              onerror="this.parentElement.outerHTML='<div class=&quot;app-icon-ph&quot;>SIM</div>'">
+          </div>
+          <div class="app-name">Simulação Local e na Nuvem</div>
+          <p class="app-desc">Valide os seus projetos antes da produção com as ferramentas SIMULIA e SOLIDWORKS Simulation.</p>
+        </div>
+      </div>
+
+      <div class="app-card reveal delay-4">
+        <div class="app-screen">
+          <img src="images/screen-fabrication.png" alt="Planificação e Fabricação"
+            onerror="this.parentElement.innerHTML='<div class=&quot;app-screen-ph&quot;>Screenshot Fabrication</div>'">
+        </div>
+        <div class="app-body">
+          <div class="app-icon">
+            <img src="images/icon-delmia.png" alt="DELMIA"
+              onerror="this.parentElement.outerHTML='<div class=&quot;app-icon-ph&quot;>FAB</div>'">
+          </div>
+          <div class="app-name">Planificação e Fabricação</div>
+          <p class="app-desc">Simule as suas linhas de produção, organize os seus fluxos e gira os seus recursos industriais.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 3 mini cartes -->
+    <div class="apps-mini">
+
+      <div class="app-mini-card reveal delay-1">
+        <div class="app-mini-icon">
+          <img src="images/icon-3dexcite.png" alt="3DEXCITE" onerror="this.remove()">
+        </div>
+        <div class="app-mini-name">Renderização Realista</div>
+        <p class="app-mini-desc">Transforme os seus conteúdos digitais, melhore a experiência dos seus produtos e conquiste mais projetos.</p>
+      </div>
+
+      <div class="app-mini-card reveal delay-2">
+        <div class="app-mini-icon">
+          <img src="images/icon-electrical.png" alt="SW Electrical" onerror="this.remove()">
+        </div>
+        <div class="app-mini-name">Elétrico e Esquemático</div>
+        <p class="app-mini-desc">
+          Planeie os seus sistemas elétricos num ambiente unificado, sincronizando automaticamente
+          os seus projetos 2D e 3D, mecânicos e elétricos.
+        </p>
+      </div>
+
+      <div class="app-mini-card reveal delay-3"
+        style="align-items:center;justify-content:center;background:var(--red-lt);border-color:rgba(196,30,30,.15)">
+        <p style="font-size:15px;font-weight:700;color:var(--red);text-align:center;margin-bottom:16px">
+          Todas as aplicações disponíveis
+        </p>
+        <a href="https://ohmycad.com/all-apps/" class="btn btn-red">Ver todas →</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     SOCIAL PROOF
+════════════════════════════════════ -->
+<section class="sec-sm sec-alt">
+  <div class="container">
+    <div class="proof-header reveal">
+      <div class="eyebrow">Testemunhos</div>
+      <h2 class="sec-h2">Um acompanhamento adotado por mais de 1.000 clientes.</h2>
+      <p class="sec-lead" style="margin-top:12px">
+        Pequenas equipas ou estruturas industriais : todas optaram por uma implementação do
+        SOLIDWORKS mais simples, mais rápida e com um acompanhamento de maior qualidade.
+      </p>
+    </div>
+    <div class="proof-widget reveal delay-1">
+      <!-- Intégrer ici votre widget Google Reviews / Trustpilot / Common Ninja -->
+      [ Widget avis clients — à intégrer ici ]
+    </div>
+    <div class="proof-cta reveal">
+      <a href="https://ohmycad.com/testimony/" class="btn btn-red">
+        ACEDER AOS TESTEMUNHOS DE CLIENTES
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     TEAM
+════════════════════════════════════ -->
+<section class="sec" id="team">
+  <div class="container">
+
+    <div class="team-intro">
+      <div class="reveal">
+        <div class="eyebrow">A nossa equipa</div>
+        <h2 class="sec-h2">OléCAD :<br>Agilidade ao serviço do seu desenvolvimento</h2>
+      </div>
+      <div class="team-intro-right reveal delay-1">
+        <p>Fundada por jovens empreendedores especialistas em SOLIDWORKS, a OléCAD propõe
+          uma nova forma de implementar as ferramentas da Dassault Systèmes.</p>
+        <p>A nossa missão : acompanhar startups, PMEs e freelancers com soluções simples,
+          eficientes e prontas a utilizar.</p>
+      </div>
+    </div>
+
+    <div class="team-grid">
+
+      <div class="team-card reveal delay-1">
+        <div class="team-photo">
+          <img src="images/leo.jpg" alt="Léo Cosnier"
+            onerror="this.parentElement.outerHTML='<div class=&quot;team-photo-ph&quot;>LC</div>'">
+        </div>
+        <div class="team-info">
+          <div class="team-name">Léo Cosnier</div>
+          <div class="team-role">Co-fundador · Engenheiro SOLIDWORKS &amp; 3DEXPERIENCE</div>
+          <p class="team-bio">
+            Engenheiro mecânico especializado em SOLIDWORKS e 3DEXPERIENCE. Com experiência em
+            equipas técnicas de adoção de soluções SOLIDWORKS, o Léo domina plenamente as ferramentas
+            e a sua aplicação.<br><br>
+            O seu objetivo : ajudar as empresas a tirar o máximo partido das soluções CAD e PLM.
+          </p>
+        </div>
+      </div>
+
+      <div class="team-card reveal delay-2">
+        <div class="team-photo">
+          <img src="images/arthur.jpg" alt="Arthur Dussaubat"
+            onerror="this.parentElement.outerHTML='<div class=&quot;team-photo-ph&quot;>AD</div>'">
+        </div>
+        <div class="team-info">
+          <div class="team-name">Arthur Dussaubat</div>
+          <div class="team-role">Co-fundador · Desenvolvimento de Negócio</div>
+          <p class="team-bio">
+            Especialista em desenvolvimento de negócio para startups e PMEs.<br><br>
+            Com um sólido background comercial e experiência em ambientes dinâmicos, o Arthur
+            aporta uma visão estratégica para acompanhar jovens empresas na adoção de soluções
+            tecnológicas que impulsionam o seu crescimento.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ohmycad strip -->
+    <div class="team-omc-strip reveal">
+      <div class="team-omc-media">
+        <img src="images/equipe-omc.jpg" alt="Équipe Ohmycad"
+          onerror="this.outerHTML='<div class=&quot;team-omc-media-ph&quot;>[ Photo équipe Ohmycad ]</div>'">
+      </div>
+      <div class="team-omc-text">
+        <div class="team-omc-logo">
+          <img src="images/logo-ohmycad.png" alt="Ohmycad"
+            onerror="this.parentElement.outerHTML='<div class=&quot;team-omc-logo-ph&quot;>OMC</div>'">
+        </div>
+        <h3>L'équipe OHMYCAD</h3>
+        <p>Nous sommes une équipe d'ingénieurs passionnées de conception, d'innovation et
+          de technologie. Avec plus de 1 000 clients et 1 900 users, OHMYCAD a été élu
+          1<sup>er</sup> partenaire 3DS 2022, 2023 et 2024 sur 3DX SOLIDWORKS.</p>
+        <p>Notre objectif est de simplifier l'accès aux meilleures solutions cloud
+          3DEXPERIENCE, SOLIDWORKS &amp; CATIA de développement produit de Dassault Systèmes
+          et de vous aider à en tirer le meilleur.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     CONTACT
+════════════════════════════════════ -->
+<section class="sec contact-section" id="contact">
+  <div class="contact-bg-img" aria-hidden="true"></div>
+  <div class="container contact-inner">
+
+    <div class="contact-left reveal">
+      <div class="eyebrow">Fale connosco</div>
+      <h2>Tem alguma pergunta ?</h2>
+      <p>Falemos sobre a melhor forma de implementar o SOLIDWORKS na sua empresa.</p>
+      <div class="contact-promises">
+        <div class="promise-item">
+          <div class="promise-icon" aria-hidden="true">⚡</div>
+          <span class="promise-label">Resposta em menos de 24 horas.</span>
+        </div>
+        <div class="promise-item">
+          <div class="promise-icon" aria-hidden="true">🎯</div>
+          <span class="promise-label">Acompanhamento personalizado garantido.</span>
+        </div>
+        <div class="promise-item">
+          <div class="promise-icon" aria-hidden="true">🔒</div>
+          <span class="promise-label">Sem compromisso, sem surpresas.</span>
+        </div>
+        <div class="promise-item">
+          <div class="promise-icon" aria-hidden="true">🤝</div>
+          <span class="promise-label">Um engenheiro dedicado desde o primeiro contacto.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form reveal delay-2">
+      <div class="form-title">Envie-nos uma mensagem</div>
+      <div class="form-hint">Resposta garantida em menos de 24 horas úteis.</div>
+      <form id="contactForm" novalidate>
+        <div class="fg">
+          <label for="email">Correio eletrónico</label>
+          <input type="email" id="email" name="email" placeholder="manolito.perez@solidworks.com">
+        </div>
+        <div class="form-row">
+          <div class="fg">
+            <label for="fname">Nome</label>
+            <input type="text" id="fname" name="fname" placeholder="Manolito">
+          </div>
+          <div class="fg">
+            <label for="lname">Apelido(s)</label>
+            <input type="text" id="lname" name="lname" placeholder="Pérez">
+          </div>
+        </div>
+        <div class="fg">
+          <label for="msg">Mensagem</label>
+          <textarea id="msg" name="msg" placeholder="O seu projeto, a sua situação atual e as suas necessidades…"></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          ENVIAR
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <p class="form-note">Os seus dados nunca serão partilhados com terceiros.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     FOOTER
+════════════════════════════════════ -->
+<footer>
+  <div class="container">
+
+    <!-- CTA banner -->
+    <div class="footer-cta reveal">
+      <div>
+        <div class="footer-cta-title">Vamos falar sobre o teu projeto</div>
+        <div class="footer-cta-sub">Marca uma reunião gratuita com um dos nossos especialistas.</div>
+      </div>
+      <a href="https://outlook.office.com/bookwithme/user/09d3b17cd9c04489bcd5ed8c80cec0d9@OleCAD.com/meetingtype/Nh3agclOaUeDFWI9cjWvMw2?anonymous&ep=mLinkFromTile"
+         class="btn btn-red">
+        📞 Marca uma reunião na minha agenda
+      </a>
+    </div>
+
+    <!-- 3 info cards -->
+    <div class="footer-cards reveal">
+      <div class="footer-card">
+        <h4>Contacto</h4>
+        <a href="mailto:contacto@olecad.com">contacto@olecad.com</a>
+        <a href="tel:+351969563685">+351 969 563 685</a>
+        <a href="#">+34 — — —</a>
+      </div>
+      <div class="footer-card">
+        <h4>Localização</h4>
+        <p>Calle Velazquez, 27<br>Madrid, ESPANHA</p>
+        <p style="margin-top:8px">Rua Rui Faleiro<br>Porto, PORTUGAL</p>
+      </div>
+      <div class="footer-card">
+        <h4>SOLIDWORKS &amp; Ohmycad</h4>
+        <p>Mais informações sobre a nossa parceria e certificação Dassault Systèmes.</p>
+        <a href="https://ohmycad.com/" style="margin-top:8px;color:rgba(255,255,255,.7)">ohmycad.com →</a>
+      </div>
+    </div>
+
+    <hr class="footer-sep">
+
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="images/logo-no-bg.png" alt="OléCAD"
+          onerror="this.outerHTML='<span class=&quot;footer-logo-ph&quot;>OléCAD</span>'">
+      </div>
+      <div class="footer-copy">
+        <p>© Todos os direitos reservados. — OléCAD x Ohmycad</p>
+        <p>Ole Digital Systems, S.L. com um capital social de 4.000 € — NIF B25979618</p>
+        <div style="margin-top:6px">
+          <a href="https://ohmycad.com/mentions-legales/">Aviso legal</a>
+          <a href="https://ohmycad.com/conditions-generales-de-vente/">Condições gerais</a>
+          <a href="https://ohmycad.com/politique-de-confidentialite/">Privacidade</a>
+        </div>
+        <div class="footer-langs">
+          <a href="https://olecad.ohmycad.com/"     class="footer-lang active">🇵🇹 Português</a>
+          <a href="https://olecad.ohmycad.com/es/"  class="footer-lang">🇪🇸 Español</a>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="soc-btn" aria-label="Facebook">f</a>
+        <a href="#" class="soc-btn" aria-label="Twitter / X">𝕏</a>
+        <a href="#" class="soc-btn" aria-label="Instagram">ig</a>
+        <a href="#" class="soc-btn" aria-label="YouTube">▶</a>
+        <a href="https://www.linkedin.com/company/go-2-cloud/" class="soc-btn" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
